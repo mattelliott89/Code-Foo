@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Matt Elliott's Code-Foo Site</title>
+		<link href="template.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="platesByPop2.js"></script>
+
+		<div class="logo" >
+			<div class="navigation">
+				<a href="#"><img src="logo5.png" alt="logo"/></a>
+				<div class="link">
+					<a href="video.html" class="nav">Video</a>
+				</div>
+				<div class="activelink">
+					<a href="plates.html" class="activenav">Plates</a>
+				</div>
+				<div class="link">
+					<a href="liquid.html" class="nav">Liquid</a>
+				</div>
+				<div class="link">
+					<a href="connect4.html" class="nav">Connect4</a>
+				</div>
+				<div class="link">
+					<a href="schoolbus.html" class="nav">Busses</a>
+				</div>
+				<div class="link">
+					<a href="about.html" class="nav">About</a>
+				</div>
+				<div class="link">
+					<a href="index.html" class="nav">Home </a>
+				</div>
+			</div>
+		</div>
+	</head>
+
+	<body class="main">
+		<br />
+		<div class="containcol">
+			<div class="content">
+				<div class="news">
+					<img src="code-foo banner.png" alt="code foo banner"/>
+				</div>
+
+				
+				<form>
+		<table class="app">
+			<tr>
+				<th>
+					License Plates By Population
+				</th>
+			</tr>
+
+			<tr>
+				<td>
+					Population: 
+					<input type="text" onkeypress="return isNumber(event)" onchange="platesByPop()" id="popForm"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Pattern: 
+					<input class="app" type="text" readonly="readonly" id="patternForm"/> 
+				</td>
+			</tr>
+				<td>
+					Number of Plates: 
+					<input class="app" type="text" readonly="readonly" id="plateForm"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Excess Plates: 
+					<input class="app" type="text" readonly="readonly" id="excessForm"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="center">
+					<button class="clicksubmit" type="button" onclick="platesByPop()" value="Submit">
+						Calculate
+					</button>
+				</td>
+			</tr>
+		</table>	
+	</form>
+	<br />
+	<div class="cBox"><a><h1>4/27/12</h1></a><br /> This application calculates the pattern of characters and digits needed to supply a proposed population with a sufficient number of license plates. It is done using the least amount of excess plates possible......
+	</div>
+	<br />
+			</div>
+		</div>
+	</body>
+
+</html> 

@@ -1,0 +1,55 @@
+<html>
+<head>
+<style media="all" type="text/css">
+	@import "style.css";
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>License Plates Based on Population</title>
+	<script type="text/javascript" src="platesByPop2.js"></script>
+</head>
+<body>
+<div>
+	<form>
+		<table class="app">
+			<tr>
+				<th>
+					License Plates By Population
+				</th>
+			</tr>
+
+			<tr>
+				<td>
+					Population: 
+					<input type="text" onkeypress="return isNumber(event)" onchange="platesByPop()" id="popForm"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Pattern: 
+					<input class="app" type="text" readonly="readonly" id="patternForm"/> 
+				</td>
+			</tr>
+				<td>
+					Number of Plates: 
+					<input class="app" type="text" readonly="readonly" id="plateForm"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Excess Plates: 
+					<input class="app" type="text" readonly="readonly" id="excessForm"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="center">
+					<button class="clicksubmit" type="button" onclick="platesByPop()" value="Submit">
+						Calculate
+					</button>
+				</td>
+			</tr>
+		</table>	
+	</form>
+</div>
+</body>
+</html>
+	

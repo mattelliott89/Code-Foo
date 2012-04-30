@@ -1,0 +1,35 @@
+body
+{
+	background-color: #E6E6E6;
+	font-size: 14;
+}
+table.app
+{
+	margin-top:20px;
+	margin-left:20px;
+	background-color: #FFFFFF;
+	text-align: right;
+	-moz-box-shadow: 0 0 4px 4px #888;
+	-webkit-box-shadow: 0 0 4px 4px#888;
+	box-shadow: 0 0 4px 4px #888;
+}
+th
+{
+	color: #3B5998;
+	padding: 4px;
+	text-align:center;
+}
+input.app
+{
+border:0px;
+}
+button.clicksubmit
+{
+	color: #3B5998;
+	float: center;
+	background-color: #E6E6E6;
+}
+td.center
+{
+text-align: center;
+}
